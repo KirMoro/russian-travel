@@ -5,3 +5,15 @@
     justify-content: space-between;
     padding: 0 0 24px 0;  
 }
+
+@media screen and (max-width: 688px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        flex-direction: column;
+    }
+}
