@@ -10,9 +10,3 @@
         flex-direction: column;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .footer__row_content-nav {
-        flex-direction: column;
-    }
-}

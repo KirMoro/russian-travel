@@ -3,7 +3,7 @@
     justify-self: start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place__website {
       padding: 0 0 32px 16px;
     }

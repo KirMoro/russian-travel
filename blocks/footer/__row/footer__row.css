@@ -9,11 +9,3 @@
         padding: 0 0 48px 0;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .footer__row {
-        width: 80%;
-        flex-direction: column;
-        padding: 0 0 48px 0;
-    }
-}
