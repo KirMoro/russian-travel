@@ -1,5 +1,6 @@
 .lead {
-    width: 80%;
+    min-width: 928px;
+    max-width: 984px;
     margin: 0 auto;
     padding: 0 0 92px 0;
     display: flex;
@@ -8,29 +9,17 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1120px) {
-    .lead {
-        width: 85%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .lead {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead {
         width: 100%;
-        min-width: 480px;
+        min-width: 320px;
+        max-width: 768px;
         padding: 0 0 88px 0;
     }
 }
 
 @media screen and (max-width: 425px) {
     .lead {
-        width: 100%;
         min-width: 320px;
         padding: 0 0 64px 0;
     }

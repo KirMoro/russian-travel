@@ -1,5 +1,7 @@
 .places {
-    width: 80%;
+    width: 90%;
+    min-width: 928px;
+    max-width: 984px;
     margin: 0 auto;
     padding: 0 0 92px 0;
     display: flex;
@@ -8,21 +10,18 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .places {
-        width: 95%;
+        min-width: 720px;
+        max-width: 928px;
+        padding: 0 0 90px 0;
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
     .places {
-        width: 95%;
-        padding: 0 0 66px 0;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .places {
+        min-width: 320px;
+        max-width: 720px;
         padding: 0 0 66px 0;
     }
 }
